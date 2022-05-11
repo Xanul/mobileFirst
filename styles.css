@@ -17,6 +17,7 @@
     --just-white: #FFFFFF;
     --grey-text: #757575;
     --grey-text-light: #B5B0AC;
+    --grey-text-alt:#808080;
     --secondary-blue: #1A9AF7;
     --soft-blue: #E7F5FF;
 }
@@ -329,4 +330,103 @@ main {
     padding: 8px;
     background-color: var(--soft-blue);
     border-radius: 5px;
+}
+
+.main--product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product-detail--batataLogo {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    background-image: url('./assets/icons/batata.svg');
+    top: -10px;
+    left: calc(50% - 20px);
+}
+
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.product-detail--title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--just-white);
+    line-height: 2.6rem;
+}
+
+.product-detail--title p {
+    margin-bottom: 20px;
+    color: var(--grey-text-alt);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black2);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+}
+
+
+
+.detail--cardImg {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clock {
+    background-image: url('./assets/icons/clock.svg');
+}
+
+.eye {
+    background-image: url('./assets/icons/eye.svg');
+}
+
+.dollar {
+    background-image: url('./assets/icons/dollarSign.svg');
+}
+
+.check {
+    background-image: url('./assets/icons/check.svg');
+}
+
+.product--card-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    margin-bottom: 15px;
+}
+
+.product--card-body {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-style: normal;
+    color: var(--grey-text-alt);
 }
