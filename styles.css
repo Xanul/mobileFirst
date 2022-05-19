@@ -43,7 +43,8 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: var(--gradient-bg);
+    /* background: var(--gradient-bg); */
+    background-color: var(--warm-black2);
 }
 
 
